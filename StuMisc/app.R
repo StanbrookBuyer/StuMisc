@@ -1,6 +1,7 @@
-install.packages(c("shiny", "DT"))
+install.packages(c("shiny", "DT","rsconnect"))
 library(shiny)
 library(DT)
+library(rsconnect)
 
 # Define UI
 ui <- fluidPage(
