@@ -3,6 +3,8 @@ library(shiny)
 library(DT)
 library(rsconnect)
 
+rsconnect::writeManifest()
+
 # Define UI
 ui <- fluidPage(
   tags$head(
