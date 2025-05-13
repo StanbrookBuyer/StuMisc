@@ -1,3 +1,5 @@
+# set up mirror
+options(repos=c(CRAN="https://cloud.r-project.org/"))
 install.packages(c("shiny", "DT","rsconnect"))
 library(shiny)
 library(DT)
